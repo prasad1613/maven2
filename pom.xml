@@ -93,23 +93,19 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-	
-	    <repository>
-	      <id>releases</id>
-             <!-- <username>admin</username>
-              <password>Minnu@123</password>-->
-	      <name>siva.maven</name>
-	      <url>http://192.168.43.208:8081/repository/releases/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-              <id>releases</id>
-	      <name>siva.maven </name>
-	      <url>http://192.168.43.208:8081/repository/releases/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://192.168.43.208:8081/repository/releases/</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshots</name>
+      <url>http://192.168.43.208:8081/repository/releases/</url>
+    </snapshotRepository>
+  </distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
