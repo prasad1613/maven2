@@ -96,13 +96,13 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>admin</id>
+	      <id>releases</id>
 	      <name>siva.maven</name>
 	      <url>http://192.168.43.208:8081/repository/releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-              <id>admin</id>
+              <id>releases</id>
 	      <name>siva.maven </name>
 	      <url>http://192.168.43.208:8081/repository/releases/</url>
 	    </snapshotRepository>
