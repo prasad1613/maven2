@@ -97,13 +97,13 @@
     <repository>
       <id>nexus</id>
       <name>Releases</name>
-      <url>http://192.168.43.208:8081/repository/releases/</url>
+      <url>http://192.168.43.208:8081/repository/</url>
     </repository>
 
     <snapshotRepository>
       <id>nexus</id>
       <name>Snapshots</name>
-      <url>http://192.168.43.208:8081/repository/releases/</url>
+      <url>http://192.168.43.208:8081/repository/</url>
     </snapshotRepository>
   </distributionManagement>
 	
